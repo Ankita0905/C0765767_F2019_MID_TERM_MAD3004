@@ -45,5 +45,14 @@ for i in custDict.values{
     i.iDisplay()
 }
 
+for (k,v) in custDict{
+    
+    if(k == "102")
+    {
+        print("Printing Value of a Specific custoemr id")
+    v.iDisplay()
+    }
+    
+}
 
 
