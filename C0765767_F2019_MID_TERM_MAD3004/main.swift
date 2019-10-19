@@ -12,6 +12,9 @@ var i = Internet(providerName: "Rogers", gbUsed: 55.8, billId: "IN01", billDate:
 var m = Mobile(manufacturerName: "Apple", planName: "AA", mobileNumber: "987678965", internetUsed: 7.9, minutesUsed: 500, billAmount: 120, billId: "M01", billType:Bill.Types.Mobile, billDate: "")
 var h = Hydro(agencyName: "Brampton Energy", unitsConsumed: 200, billAmount: 150, billId: "H01", billType: Bill.Types.Hydro, billDate: "")
 
+var c = Customer(customerId: "101", firstName: "Ankita ", lastName: "Jain", email: "ankita@gmail.com", billDictionary : [i.billId:i,m.billId:m,h.billId:h])
+
+
 
 
 
