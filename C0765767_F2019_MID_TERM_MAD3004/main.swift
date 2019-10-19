@@ -49,10 +49,13 @@ for (k,v) in custDict{
     
     if(k == "102")
     {
+          print("\n")
         print("************************************************")
         print("Printing Value of a Specific customer id")
-    v.iDisplay()
+        v.iDisplay()
         print("************************************************")
+          print("\n")
+        
     }
     
 }

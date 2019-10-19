@@ -37,6 +37,7 @@ class Customer : IDisplay
     }
     func iDisplay() {
         print("------------- CUSTOMER DETAILS ---------------")
+        print("\n")
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
         print("Email Id : \(email)")
@@ -48,6 +49,7 @@ class Customer : IDisplay
         if billDictionary.count == 0
         {
             print("No bills for this customer")
+              print("\n")
         }
    //print("Total bill : \(totalBill)")
     }
