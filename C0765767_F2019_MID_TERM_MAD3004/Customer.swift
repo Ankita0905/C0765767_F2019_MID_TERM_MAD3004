@@ -22,7 +22,16 @@ class Customer : IDisplay
     var billDictionary = Dictionary<String,Bill>()
     var  totalBill : Float = 0
     
+    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    {
+        self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.billDictionary = billDictionary
+       
+    }
     
-    
+   
    
 }
