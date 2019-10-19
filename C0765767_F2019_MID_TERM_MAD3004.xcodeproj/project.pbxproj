@@ -17,6 +17,7 @@
 		9BE9A8CA235BBB15006B3485 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8C9235BBB15006B3485 /* Insurance.swift */; };
 		9BE9A8CE235BC159006B3485 /* CurrExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8CD235BC159006B3485 /* CurrExt.swift */; };
 		9BE9A8D0235BC1CB006B3485 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8CF235BC1CB006B3485 /* DataUsed.swift */; };
+		9BE9A8D2235BC251006B3485 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8D1235BC251006B3485 /* DateExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		9BE9A8C9235BBB15006B3485 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 		9BE9A8CD235BC159006B3485 /* CurrExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrExt.swift; sourceTree = "<group>"; };
 		9BE9A8CF235BC1CB006B3485 /* DataUsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsed.swift; sourceTree = "<group>"; };
+		9BE9A8D1235BC251006B3485 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				9BE9A8CD235BC159006B3485 /* CurrExt.swift */,
 				9BE9A8CF235BC1CB006B3485 /* DataUsed.swift */,
+				9BE9A8D1235BC251006B3485 /* DateExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				9BE9A8C4235BB99F006B3485 /* Hydro.swift in Sources */,
 				9BE9A8CE235BC159006B3485 /* CurrExt.swift in Sources */,
 				9BE9A8C0235BB97F006B3485 /* Internet.swift in Sources */,
+				9BE9A8D2235BC251006B3485 /* DateExt.swift in Sources */,
 				9BE9A8CA235BBB15006B3485 /* Insurance.swift in Sources */,
 				9BE9A8D0235BC1CB006B3485 /* DataUsed.swift in Sources */,
 				9BE9A8BE235BB971006B3485 /* Bill.swift in Sources */,
