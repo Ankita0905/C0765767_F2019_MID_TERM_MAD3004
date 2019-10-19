@@ -19,6 +19,11 @@ class Insurance:IDisplay
     var startDate:String
     var endDate:String
     
-    
+    init(type:intype,provider:String,startDate:String,endDate:String) {
+        self.type=type
+        self.provider=provider
+        self.startDate=startDate
+        self.endDate=endDate
+    }
     
 }
