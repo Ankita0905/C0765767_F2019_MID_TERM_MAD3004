@@ -13,5 +13,9 @@ extension Float
         return "\(self) GB"
     }
     
-    
-}
+        func dataUnitFormat() -> String {
+            return "\(self) Units"
+        }
+        
+    }
+
