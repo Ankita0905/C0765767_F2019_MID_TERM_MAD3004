@@ -30,8 +30,7 @@ class Internet : Bill
         print("Data Used : \(gbUsed)")
         print("Bill Amount : \(billAmount)")
     }
-    
-    
+       
     }
     
 
