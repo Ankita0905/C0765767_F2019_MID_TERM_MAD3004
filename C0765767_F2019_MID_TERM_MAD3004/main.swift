@@ -29,6 +29,8 @@ var c1 = Customer(customerId: "102", firstName: "Kamal", lastName: "Kaur", email
 
 //c1.iDisplay()
 
+var i2=Internet(providerName: "Bell", gbUsed: 10, billId: "IN03", billDate: d2!, billAmount: 75025, billType: Bill.Types.Internet)
+
 custDict.updateValue(c, forKey: c.customerId)
 custDict.updateValue(c1, forKey: c1.customerId)
 
