@@ -20,6 +20,11 @@ class Hydro : Bill
         self.billAmount=billAmount
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
+    override func iDisplay() {
+      
+    }
     
-
+    
 }
+
+
