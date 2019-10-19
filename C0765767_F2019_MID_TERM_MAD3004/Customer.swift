@@ -31,10 +31,15 @@ class Customer : IDisplay
         self.billDictionary = billDictionary
     }
     func iDisplay() {
+        print("------------- CUSTOMER DETAILS ----------")
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
         print("Email Id : \(email)")
-}
+
+    for i in billDictionary.values
+    {
+    i.iDisplay()
+    }
    
-   
+    }
 }
