@@ -27,7 +27,15 @@ class Mobile : Bill{
     }
     
     override func iDisplay() {
-        
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Manufacturer Name : \( manufacturerName))")
+        print("Plan Name : \( planName))")
+        print("Mobile number : \( mobileNumber))")
+        print("Minutes used : \( minutesUsed))")
+        print("Internet Used : \( internetUsed))")
+        print("Bill Amount : \(billAmount)")
         
         
     }
