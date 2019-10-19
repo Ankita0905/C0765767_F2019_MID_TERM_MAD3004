@@ -9,6 +9,8 @@
 import Foundation
 class Insurance:IDisplay
 {
+    
+    
     enum intype {
     case Home
     case Car
@@ -18,12 +20,21 @@ class Insurance:IDisplay
     var provider:String
     var startDate:String
     var endDate:String
+    var insuranceAmt:Int
     
-    init(type:intype,provider:String,startDate:String,endDate:String) {
+    init(type:intype,provider:String,startDate:String,endDate:String,insuranceAmt:Int) {
         self.type=type
         self.provider=provider
         self.startDate=startDate
         self.endDate=endDate
+        self.insuranceAmt=insuranceAmt
+    }
+    func iDisplay() {
+        print("Type of Insurance : \(type)")
+        print("Provider : \(provider)")
+        print("Start Date : \(startDate)")
+        print("End Date : \(endDate)")
+        print("Insurance amount :\(insuranceAmt)")
     }
     
 }
