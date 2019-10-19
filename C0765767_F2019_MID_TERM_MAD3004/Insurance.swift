@@ -7,7 +7,18 @@
 //
 
 import Foundation
-class insurance
+class Insurance:IDisplay
 {
-  //var 
+    enum intype {
+    case Home
+    case Car
+    case Business
+    }
+    var type : intype
+    var provider:String
+    var startDate:String
+    var endDate:String
+    
+    
+    
 }
