@@ -18,6 +18,7 @@
 		9BE9A8CE235BC159006B3485 /* CurrExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8CD235BC159006B3485 /* CurrExt.swift */; };
 		9BE9A8D0235BC1CB006B3485 /* DataUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8CF235BC1CB006B3485 /* DataUsed.swift */; };
 		9BE9A8D2235BC251006B3485 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8D1235BC251006B3485 /* DateExt.swift */; };
+		9BE9A8D4235BC2CD006B3485 /* MinutesExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8D3235BC2CD006B3485 /* MinutesExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		9BE9A8CD235BC159006B3485 /* CurrExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrExt.swift; sourceTree = "<group>"; };
 		9BE9A8CF235BC1CB006B3485 /* DataUsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUsed.swift; sourceTree = "<group>"; };
 		9BE9A8D1235BC251006B3485 /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		9BE9A8D3235BC2CD006B3485 /* MinutesExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				9BE9A8CD235BC159006B3485 /* CurrExt.swift */,
 				9BE9A8CF235BC1CB006B3485 /* DataUsed.swift */,
 				9BE9A8D1235BC251006B3485 /* DateExt.swift */,
+				9BE9A8D3235BC2CD006B3485 /* MinutesExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				9BE9A8BE235BB971006B3485 /* Bill.swift in Sources */,
 				9BE9A8C8235BB9BC006B3485 /* IDisplay.swift in Sources */,
 				9BE9A8C6235BB9AE006B3485 /* Customer.swift in Sources */,
+				9BE9A8D4235BC2CD006B3485 /* MinutesExt.swift in Sources */,
 				9BE9A8B7235BB875006B3485 /* main.swift in Sources */,
 				9BE9A8C2235BB98F006B3485 /* Mobile.swift in Sources */,
 			);
