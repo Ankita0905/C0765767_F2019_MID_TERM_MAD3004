@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9BE9A8B7235BB875006B3485 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8B6235BB875006B3485 /* main.swift */; };
+		9BE9A8BE235BB971006B3485 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8BD235BB971006B3485 /* Bill.swift */; };
+		9BE9A8C0235BB97F006B3485 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8BF235BB97F006B3485 /* Internet.swift */; };
+		9BE9A8C2235BB98F006B3485 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8C1235BB98F006B3485 /* Mobile.swift */; };
+		9BE9A8C4235BB99F006B3485 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8C3235BB99F006B3485 /* Hydro.swift */; };
+		9BE9A8C6235BB9AE006B3485 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8C5235BB9AE006B3485 /* Customer.swift */; };
+		9BE9A8C8235BB9BC006B3485 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8C7235BB9BC006B3485 /* IDisplay.swift */; };
+		9BE9A8CA235BBB15006B3485 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE9A8C9235BBB15006B3485 /* Insurance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		9BE9A8B3235BB875006B3485 /* C0765767_F2019_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0765767_F2019_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE9A8B6235BB875006B3485 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BE9A8BD235BB971006B3485 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9BE9A8BF235BB97F006B3485 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9BE9A8C1235BB98F006B3485 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9BE9A8C3235BB99F006B3485 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9BE9A8C5235BB9AE006B3485 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9BE9A8C7235BB9BC006B3485 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
+		9BE9A8C9235BBB15006B3485 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				9BE9A8B6235BB875006B3485 /* main.swift */,
+				9BE9A8BD235BB971006B3485 /* Bill.swift */,
+				9BE9A8BF235BB97F006B3485 /* Internet.swift */,
+				9BE9A8C1235BB98F006B3485 /* Mobile.swift */,
+				9BE9A8C3235BB99F006B3485 /* Hydro.swift */,
+				9BE9A8C5235BB9AE006B3485 /* Customer.swift */,
+				9BE9A8C7235BB9BC006B3485 /* IDisplay.swift */,
+				9BE9A8C9235BBB15006B3485 /* Insurance.swift */,
 			);
 			path = C0765767_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -119,7 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE9A8C4235BB99F006B3485 /* Hydro.swift in Sources */,
+				9BE9A8C0235BB97F006B3485 /* Internet.swift in Sources */,
+				9BE9A8CA235BBB15006B3485 /* Insurance.swift in Sources */,
+				9BE9A8BE235BB971006B3485 /* Bill.swift in Sources */,
+				9BE9A8C8235BB9BC006B3485 /* IDisplay.swift in Sources */,
+				9BE9A8C6235BB9AE006B3485 /* Customer.swift in Sources */,
 				9BE9A8B7235BB875006B3485 /* main.swift in Sources */,
+				9BE9A8C2235BB98F006B3485 /* Mobile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
