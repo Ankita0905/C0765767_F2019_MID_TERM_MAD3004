@@ -11,7 +11,6 @@ class Bill : IDisplay
 {
     func iDisplay()
     {
-        
     }
     
     var billId : String
