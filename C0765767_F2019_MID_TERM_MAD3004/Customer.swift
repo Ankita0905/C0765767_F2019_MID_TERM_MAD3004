@@ -29,9 +29,13 @@ class Customer : IDisplay
         self.lastName = lastName
         self.email = email
         self.billDictionary = billDictionary
-       
     }
-    
+    func iDisplay() {
+        print("Customer Id : \(customerId)")
+        print("Full Name : \(fullName)")
+        
+        
+}
    
    
 }
