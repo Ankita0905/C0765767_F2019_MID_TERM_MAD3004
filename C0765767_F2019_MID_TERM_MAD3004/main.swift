@@ -37,6 +37,7 @@ var c3=Customer(customerId: "104", firstName: "Sandeep", lastName: "Singh", emai
 custDict.updateValue(c, forKey: c.customerId)
 custDict.updateValue(c1, forKey: c1.customerId)
 custDict.updateValue(c2, forKey: c2.customerId)
+custDict.updateValue(c3, forKey: c2.customerId)
 
 
 
