@@ -27,8 +27,8 @@ class Internet : Bill
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Provider Name : \(providerName)")
-        print("Data Used : \(gbUsed)")
-        print("Bill Amount : \(billAmount)")
+        print("Data Used : \(gbUsed.gbUsed())")
+        print("Bill Amount : \(billAmount.currencyFormat())")
     }
        
     }

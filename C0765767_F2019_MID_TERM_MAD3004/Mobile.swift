@@ -33,9 +33,9 @@ class Mobile : Bill{
         print("Manufacturer Name : \( manufacturerName))")
         print("Plan Name : \( planName))")
         print("Mobile number : \( mobileNumber))")
-        print("Minutes used : \( minutesUsed))")
-        print("Internet Used : \( internetUsed))")
-        print("Bill Amount : \(billAmount)")
+        print("Minutes used : \( minutesUsed.minuteFormat()))")
+        print("Internet Used : \( internetUsed.gbUsed()))")
+        print("Bill Amount : \(billAmount.currencyFormat())")
         
         
     }
