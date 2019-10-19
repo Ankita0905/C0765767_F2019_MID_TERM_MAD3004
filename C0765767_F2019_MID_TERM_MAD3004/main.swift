@@ -50,7 +50,7 @@ for (k,v) in custDict{
     if(k == "102")
     {
         print("************************************************")
-        print("Printing Value of a Specific custoemr id")
+        print("Printing Value of a Specific customer id")
     v.iDisplay()
         print("************************************************")
     }
