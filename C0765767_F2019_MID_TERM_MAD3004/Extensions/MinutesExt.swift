@@ -7,3 +7,10 @@
 //
 
 import Foundation
+extension Int
+{
+    func minuteFormat() -> String {
+        return "\(self) Minutes"
+    }
+    
+}
