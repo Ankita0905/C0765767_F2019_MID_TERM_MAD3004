@@ -29,10 +29,11 @@ var c1 = Customer(customerId: "102", firstName: "Kamal", lastName: "Kaur", email
 
 //c1.iDisplay()
 
-var i2=Internet(providerName: "Bell", gbUsed: 10, billId: "IN03", billDate: d2!, billAmount: 75025, billType: Bill.Types.Internet)
-
+var i2=Internet(providerName: "Bell", gbUsed: 10, billId: "IN03", billDate: d2!, billAmount: 75.25, billType: Bill.Types.Internet)
+var c2=Customer(customerId: "103", firstName: "Karan", lastName: "Kumar", email: "karan@gmail.com", billDictionary: [i2.billId:i2])
 custDict.updateValue(c, forKey: c.customerId)
 custDict.updateValue(c1, forKey: c1.customerId)
+custDict.updateValue(c2, forKey: c2.customerId)
 
 for i in custDict.values{
     i.iDisplay()
