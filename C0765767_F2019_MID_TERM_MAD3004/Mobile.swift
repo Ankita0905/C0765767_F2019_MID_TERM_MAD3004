@@ -15,8 +15,8 @@ class Mobile : Bill{
         var internetUsed : Float
         var minutesUsed : Int
         var billAmount : Float
-    
-    init(manufacturerName : String,planName : String,mobileNumber : String,internetUsed : Float,minutesUsed : Int,billAmount : Float,billId : String, billDate : String,  billType : Bill.Types) {
+   
+    init(manufacturerName:String,planName:String,mobileNumber:String,internetUsed:Float,minutesUsed:Int,billAmount:Float,billId : String,billType : Types,billDate: String) {
         self.manufacturerName=manufacturerName
         self.planName=planName
         self.mobileNumber=mobileNumber
@@ -26,4 +26,9 @@ class Mobile : Bill{
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
+    override func iDisplay() {
+        
+        
+        
+    }
 }
