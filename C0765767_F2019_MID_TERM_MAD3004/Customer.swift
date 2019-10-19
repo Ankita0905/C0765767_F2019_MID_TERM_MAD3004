@@ -40,6 +40,10 @@ class Customer : IDisplay
     {
     i.iDisplay()
     }
+        if billDictionary.count == 0
+        {
+            print("No bills for this customer")
+        }
    
     }
 }
