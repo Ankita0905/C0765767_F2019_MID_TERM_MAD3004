@@ -7,6 +7,19 @@
 //
 
 import Foundation
-
+extension Date
+{
+    //code seen from moodle and from google
+    func dateformatter() -> String {
+        let dateFormatterPrint=DateFormatter()
+        dateFormatterPrint.dateFormat="EEEE, dd MMMM, yyyy"
+        
+        let formattedDate = dateFormatterPrint.string(from: self)
+        return formattedDate
+        
+    }
+    
+    
+}
     
 

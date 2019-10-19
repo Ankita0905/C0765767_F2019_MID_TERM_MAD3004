@@ -8,6 +8,7 @@
 
 import Foundation
 extension Float {
+    //code seen from Google
     func currencyFormat() ->String
     {
         return String(format: "$%0.2f", Float(self))
