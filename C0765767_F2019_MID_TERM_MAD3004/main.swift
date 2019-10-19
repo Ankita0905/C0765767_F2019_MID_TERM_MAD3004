@@ -8,5 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
+var i = Internet(providerName: "Rogers", gbUsed: 55.8, billId: "IN01", billDate: "", billAmount: 100, billType: Bill.Types.Internet)
+
 

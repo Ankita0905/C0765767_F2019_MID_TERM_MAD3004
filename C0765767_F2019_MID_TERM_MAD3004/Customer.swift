@@ -33,8 +33,6 @@ class Customer : IDisplay
     func iDisplay() {
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
-        
-        
 }
    
    
