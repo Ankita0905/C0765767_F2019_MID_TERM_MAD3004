@@ -12,6 +12,7 @@ class Customer : IDisplay
     var customerId : String
     var firstName : String
     var lastName : String
+    //var bill:Bill
     var fullName:String //code taken from git repository created in class
     {
         get{
@@ -29,9 +30,13 @@ class Customer : IDisplay
         self.lastName = lastName
         self.email = email
         self.billDictionary = billDictionary
+        
+        //self.bill = bill
+        //self.billDictionary.updateValue(bill, forKey: bill.billId)
+
     }
     func iDisplay() {
-        print("------------- CUSTOMER DETAILS ----------")
+        print("------------- CUSTOMER DETAILS ---------------")
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
         print("Email Id : \(email)")
@@ -44,6 +49,7 @@ class Customer : IDisplay
         {
             print("No bills for this customer")
         }
-   
+   //print("Total bill : \(totalBill)")
     }
+    
 }
