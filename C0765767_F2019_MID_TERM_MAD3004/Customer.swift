@@ -9,6 +9,19 @@
 import Foundation
 class Customer : IDisplay
 {
+    var customerId : String
+    var firstName : String
+    var lastName : String
+    var fullName:String //code taken from git repository created in class
+    {
+        get{
+            return "\(self.firstName) \(self.lastName)"
+        }
+    }
+    var email : String
+    var billDictionary = Dictionary<String,Bill>()
+    var  totalBill : Float = 0
+    
     
     
    
