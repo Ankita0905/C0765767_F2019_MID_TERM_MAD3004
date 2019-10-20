@@ -7,6 +7,7 @@
 //
 
 import Foundation
+//code taken from karan
 class Insurance:Bill
 {
     enum typeInsurance{
