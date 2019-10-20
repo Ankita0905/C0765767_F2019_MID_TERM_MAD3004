@@ -20,20 +20,20 @@ var i = Internet(providerName: "Rogers", gbUsed: 8, billId: "IN01", billDate: d1
 var m = Mobile(manufacturerName: "Apple", planName: "AA", mobileNumber: "545643654", internetUsed: 505, minutesUsed: 500, billAmount: 70, billId: "M01", billType:Bill.Types.Mobile, billDate: d3!)
 var h = Hydro(agencyName: "Brampton Energy", unitsConsumed: 51015, billAmount: 150, billId: "H01", billType: Bill.Types.Hydro, billDate: d2!)
 
-var c = Customer(customerId: "101", firstName: "Ankita", lastName: "Jain", email: "ankita@gmail.com", billDictionary : [i.billId:i,m.billId:m,h.billId:h])
+var c = Customer(customerId: "101", firstName: "Ankita", lastName: "Jain", email: "ankita@gmail.com", billDictionary : [i.billId:i,m.billId:m,h.billId:h], inDict: [:])
 //c.iDisplay()
 
 var i1 = Internet(providerName: "Freedom", gbUsed: 7.5, billId: "IN02", billDate: d1!, billAmount: 90, billType: Bill.Types.Internet)
 var h1 = Hydro(agencyName: "Tronto Energy", unitsConsumed: 78.31, billAmount: 100, billId: "H21", billType: Bill.Types.Hydro, billDate: d3!)
-var c1 = Customer(customerId: "102", firstName: "Kamal", lastName: "Kaur", email: "kamal@gmail.com", billDictionary : [i1.billId:i1,h1.billId:h1])
+var c1 = Customer(customerId: "102", firstName: "Kamal", lastName: "Kaur", email: "kamal@gmail.com", billDictionary : [i1.billId:i1,h1.billId:h1], inDict: [:])
 
 //c1.iDisplay()
 
 var i2=Internet(providerName: "Bell", gbUsed: 10, billId: "IN03", billDate: d2!, billAmount: 75.25, billType: Bill.Types.Internet)
-var in1=Insurance(type: Insurance.intype.Car, provider: "ABC", startDate: d2!, endDate: d3!, insuranceAmt: 400)
-var c2=Customer(customerId: "103", firstName: "Karan", lastName: "Kumar", email: "karan@gmail.com", billDictionary: [i2.billId:i2])
+//var in1=Insurance(type: Insurance.intype.Car, provider: "ABC", startDate: d2!, endDate: d3!, insuranceAmt: 400)
+var c2=Customer(customerId: "103", firstName: "Karan", lastName: "Kumar", email: "karan@gmail.com", billDictionary: [i2.billId:i2], inDict: [:] /*inDict: [in1.provider:in1]*/)
 
-var c3=Customer(customerId: "104", firstName: "Sandeep", lastName: "Singh", email: "sandeep@gmail.com", billDictionary: [:])
+var c3=Customer(customerId: "104", firstName: "Sandeep", lastName: "Singh", email: "sandeep@gmail.com", billDictionary: [:], inDict: [:])
 
 custDict.updateValue(c, forKey: c.customerId)
 custDict.updateValue(c1, forKey: c1.customerId)
