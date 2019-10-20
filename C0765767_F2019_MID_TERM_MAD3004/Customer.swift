@@ -21,15 +21,17 @@ class Customer : IDisplay
     }
     var email : String
     var billDictionary = Dictionary<String,Bill>()
-    var  totalBill : Float = 0
+    var inDict=Dictionary<String,Insurance>()
+    var totalBill : Float = 0
     
-    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill>)
+    init(customerId : String, firstName : String, lastName : String, email : String ,billDictionary : Dictionary<String,Bill> ,inDict:Dictionary<String,Insurance>)
     {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
         self.email = email
         self.billDictionary = billDictionary
+        self.inDict=inDict
         
         //self.bill = bill
         //self.billDictionary.updateValue(bill, forKey: bill.billId)
