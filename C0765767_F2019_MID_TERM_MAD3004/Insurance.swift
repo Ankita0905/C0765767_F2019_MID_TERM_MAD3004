@@ -19,9 +19,13 @@ class Insurance:Bill
     var startDate : Date
     var endDate : Date
     var totalInstallmentAmount :Int
+    {
+    get
+    {   let time_interval=endDate.timeIntervalSince(startDate)
+    return Int(5*time_interval)
+    }
     
-    
-    
+    }
     init(Type: typeInsurance,Provider : String, StartDate: Date, EndDate: Date,BillId : String, BillDate : String,billAmount: Float, BillType : Bill.Types) {
         self.typeOfInsurance=Type
         self.provider=Provider

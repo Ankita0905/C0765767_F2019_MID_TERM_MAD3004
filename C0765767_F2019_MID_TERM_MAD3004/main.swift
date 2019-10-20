@@ -31,7 +31,7 @@ var c1 = Customer(customerId: "102", firstName: "Kamal", lastName: "Kaur", email
 
 var i2=Internet(providerName: "Bell", gbUsed: 10, billId: "IN03", billDate: d2!, billAmount: 75.25, billType: Bill.Types.Internet)
 //var in1=Insurance(type: Insurance.intype.Car, provider: "ABC", startDate: d2!, endDate: d3!, insuranceAmt: 400)
-var c2=Customer(customerId: "103", firstName: "Karan", lastName: "Kumar", email: "karan@gmail.com", billDictionary: [i2.billId:i2], inDict: [:] /*inDict: [in1.provider:in1]*/)
+var c2=Customer(customerId: "103", firstName: "Karan", lastName: "Kumar", email: "karan@gmail.com", billDictionary: [i2.billId:i2], inDict: [:]/*inDict: [in1.provider:in1]*/)
 
 var c3=Customer(customerId: "104", firstName: "Sandeep", lastName: "Singh", email: "sandeep@gmail.com", billDictionary: [:], inDict: [:])
 
